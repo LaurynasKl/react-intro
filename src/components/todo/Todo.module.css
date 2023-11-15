@@ -1,0 +1,37 @@
+.todo{
+    display: grid;
+    border-bottom: 1px solid red;
+    margin-bottom: 2rem;
+}
+.form{
+
+}
+.input{
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+.list{
+
+}
+.task{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 100px;
+    grid-template-areas: 'text action';
+}
+.text{
+    grid-area: text;
+    margin: 0;
+}
+.action{
+    grid-area: action;
+}
+.btn{
+
+}
+.empty{
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px dotted red;
+}
