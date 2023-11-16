@@ -8,11 +8,15 @@ import { SimpleList } from './components/list/SimpleList';
 import { Counter } from './components/counter/Counter';
 import { Form } from './components/form/Form';
 import { Todo } from './components/todo/Todo';
+import { Cart } from './components/cart/Cart';
 
 
 function App() {
   return(
     <div className='App'>
+      <h2>Props from Child to Parent</h2>
+        <h5>Prekiu krepselis</h5>
+          <Cart />
 
       <h2>useState() hooks'as</h2>
         <h5>Todo</h5>
@@ -35,7 +39,6 @@ function App() {
           <User name='Jonas' age={88}/>
           <User name="Maryte" age={77}/>
           <User name="petras" age='66'/>
-
         <h5>Destruktizuoti props</h5>
           <Student name='Antanas' age={55}/>
           <Student name="Ona" age={44}/>

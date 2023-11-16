@@ -1,0 +1,20 @@
+.cart{
+    padding: 2rem;
+    border: 1px solid #ccc;
+}
+.itle{
+    font-size: 2rem;   
+}
+.cartItem{
+    display: flex;
+}
+itemTitle{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+.action{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
